@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent Pioneer Voice AI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Advent Pioneer Voice AI</h1>
+        <p>Your Bible study and prophecy guide.</p>
+    </header>
+
+    <main>
+        <section id="chat">
+            <h2>Ask a Question</h2>
+            <input type="text" id="question" placeholder="Type your question...">
+            <button id="askBtn">Ask</button>
+            <div id="answer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Advent Pioneer Voice AI</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
